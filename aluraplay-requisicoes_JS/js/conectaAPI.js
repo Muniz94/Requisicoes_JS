@@ -20,6 +20,9 @@ async function criaVideo(titulo, descricao, url, imagem) {
     })
   });
 
+  const conexaoConvertida = await conexao.json();
+
+  return conexaoConvertida;
 }
 
 export const conectaAPI = {
