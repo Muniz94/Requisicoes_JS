@@ -6,6 +6,16 @@ async function listaVideos() {
   return conexaoConvertida;
 }
 
+async function criaVideo() {
+  const conexao = await fetch("http://localhost:3000/videos", {
+    method: "POST", 
+    headers: {
+      "Content-type": "application/json" // especificar que tipo de arquivo está sendo enviado (ou recebido)
+    }
+  });
+
+}
+
 export const conectaAPI = {
     listaVideos
 }
