@@ -6,3 +6,5 @@ function criaVideo() {
     const titulo = document.querySelector("[data-titulo]").value;
     const descricao = Math.floor(Math.random() * 10).toString();
 }
+
+formulario.addEventListener("submit", evento => criaVideo(evento));
