@@ -1,6 +1,8 @@
 const formulario = document.querySelector("[data-formulario]");
 
-function criaVideo() {
+function criaVideo(evento) {
+    evento.preventDefault();
+    
     const imagem = document.querySelector("[data-imagem]").value;
     const url = document.querySelector("[data-url]").value;
     const titulo = document.querySelector("[data-titulo]").value;
