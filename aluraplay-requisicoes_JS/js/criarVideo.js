@@ -1,3 +1,4 @@
+import { conectaAPI } from "./conectaAPI.js";
 const formulario = document.querySelector("[data-formulario]");
 
 function criaVideo(evento) {
