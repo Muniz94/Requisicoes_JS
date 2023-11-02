@@ -8,6 +8,8 @@ function criaVideo(evento) {
     const url = document.querySelector("[data-url]").value;
     const titulo = document.querySelector("[data-titulo]").value;
     const descricao = Math.floor(Math.random() * 10).toString();
+
+    conectaAPI.criaVideo(titulo, descricao, url, imagem);
 }
 
 formulario.addEventListener("submit", evento => criaVideo(evento));
