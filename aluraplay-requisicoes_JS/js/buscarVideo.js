@@ -1,6 +1,6 @@
 import { conectaAPI } from "./conectaAPI.js";
 
 async function buscarVideo() {
-  const dadosDePesquisa = document.querySelector("[data-pesquisa]");
+  const dadosDePesquisa = document.querySelector("[data-pesquisa]").value;
   const busca = await conectaAPI.buscaVideo(dadosDePesquisa);
 }
