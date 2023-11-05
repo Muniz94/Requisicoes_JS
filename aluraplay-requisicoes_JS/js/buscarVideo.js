@@ -1,6 +1,8 @@
 import { conectaAPI } from "./conectaAPI.js";
 
 async function buscarVideo(evento) {
+  evento.preventDefault();
+
   const dadosDePesquisa = document.querySelector("[data-pesquisa]").value;
   const busca = await conectaAPI.buscaVideo(dadosDePesquisa);
 
