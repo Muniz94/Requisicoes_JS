@@ -1,4 +1,5 @@
 import { conectaAPI } from "./conectaAPI.js";
+import constroiCard from "./mostrarVideos.js";
 
 async function buscarVideo(evento) {
   evento.preventDefault();
