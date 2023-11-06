@@ -7,7 +7,7 @@ async function buscarVideo(evento) {
   const dadosDePesquisa = document.querySelector("[data-pesquisa]").value;
   const busca = await conectaAPI.buscaVideo(dadosDePesquisa);
 
-  console.log(busca);
+  const lista = document.querySelector("[data-lista]");
 }
 
 const botaoDePesquisa = document.querySelector("[data-botao-pesquisa]"); 
