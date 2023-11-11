@@ -16,5 +16,5 @@ Projeto que transforma a página AluraPlay em dinâmica, além de poder adiciona
 ![Screenshot da tela inicial do AluraPlay](https://imgur.com/aymxEsh.png)
 ![Screenshot da tela do formulário do AluraPlay](https://imgur.com/ShNADf2.png)
 
-❓ Abrir e rodar o projeto
-Para iniciar o projeto, é necessário ter o `node.js` e o `VSCode` instalado. No terminal, digitar `npm install -g json-server`. Após isso digitar `json-server --watch db.json` e executar o `index.html`.
+## ❓ Abrir e rodar o projeto
+Para iniciar o projeto, é necessário ter o `node.js` e o `VSCode` instalado. No terminal, digitar `npm install -g json-server`. Após isso, digitar `json-server --watch db.json` e executar o `index.html`.
